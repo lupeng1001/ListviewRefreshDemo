@@ -3,6 +3,7 @@ package com.baiyuliang.listviewrefreshdemo;
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -15,7 +16,7 @@ import java.util.List;
 
 
 public class MainActivity extends Activity implements RefreshListView.OnRefreshListener,RefreshListView.OnLoadMoreListener{
-
+    private static final String TAG = "MainActivity";
     private RefreshListView mListView;
     private List<String> mDatas;
     private ArrayAdapter<String> mAdapter;
@@ -41,6 +42,7 @@ public class MainActivity extends Activity implements RefreshListView.OnRefreshL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.e(TAG,"测试测试asdasd");
         mListView = (RefreshListView) findViewById(R.id.listview);
         String[] data = new String[]{"下拉刷新", "下拉刷新", "下拉刷新", "下拉刷新",
                 "下拉刷新", "下拉刷新", "下拉刷新", "下拉刷新", "下拉刷新",

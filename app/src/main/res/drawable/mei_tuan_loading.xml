@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/donghua01"/>
+    <item android:duration="100" android:drawable="@drawable/donghua02"/>
+    <item android:duration="100" android:drawable="@drawable/donghua03"/>
+    <item android:duration="100" android:drawable="@drawable/donghua04"/>
+    <item android:duration="100" android:drawable="@drawable/donghua06"/>
+
+
+</animation-list>

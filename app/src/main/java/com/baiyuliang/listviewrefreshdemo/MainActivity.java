@@ -43,6 +43,7 @@ public class MainActivity extends Activity implements RefreshListView.OnRefreshL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.e(TAG,"测试测试asdasasdadasdasdasd");
+        //888666
         mListView = (RefreshListView) findViewById(R.id.listview);
         String[] data = new String[]{"下拉刷新", "下拉刷新", "下拉刷新", "下拉刷新",
                 "下拉刷新", "下拉刷新", "下拉刷新", "下拉刷新", "下拉刷新",
